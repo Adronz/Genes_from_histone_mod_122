@@ -25,7 +25,7 @@ Inputs:
 Given a single input file called input.fasta. Following a header line, the file contains
 500,000 lines each containing one character in the set {n,x,y,z} as shown below. Each line
 corresponds to a consecutive 200bp interval.
->seq
+'>seq'
 n
 n
 x
@@ -34,7 +34,8 @@ z
 z
 y
 y
-...
+
+
 Project Output: The output for this project is your top 50,000 predictions of 200bp intervals that
 overlap with the body of an annotated protein coding gene. You will provide the line numbers of
 them one per line. Lines are numbered starting from 1. Below is a portion of a sample output
